@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Build a SaaS app with NextJS
 
-## Getting Started
+## Technologies Used
 
-First, run the development server:
+- Next.js (13), Supabase, Stripe, Vercel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Accounts Needed (100% Free)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Supabase (Backend)](https://supabase.com)
+- [Stripe (Payments)](https://stripe.com)
+- [Vercel (Deployment)](https://vercel.com)
+- [Github (Continuous Deployment)](https://github.com)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Next.js Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js Image](https://nextjs.org/docs/api-reference/next/image)
+- [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction)
+- [Next.js GetStaticPaths](https://nextjs.org/docs/basic-features/data-fetching/get-static-paths)
+- [Next.js GetStaticProps](https://nextjs.org/docs/basic-features/data-fetching/get-static-props)
 
-## Learn More
+## Stripe Documentation (Select Node.js in code snippets)
 
-To learn more about Next.js, take a look at the following resources:
+- [Stripe Checkout: Customer Portal](https://stripe.com/docs/billing/subscriptions/build-subscriptions#customer-portal)
+- [Stripe API: List all prices](https://stripe.com/docs/api/prices/list)
+- [Stripe API: Retrieve product](https://stripe.com/docs/api/products/retrieve)
+- [Stripe API: Retrieve Customer](https://stripe.com/docs/api/customers/retrieve)
+- [Stripe API: Create a Checkout Session](https://stripe.com/docs/api/checkout/sessions/create)
+- [Stripe API: Event Object for Webhooks](https://stripe.com/docs/api/events/object)
+- [Stripe API: Versioning](https://stripe.com/docs/upgrades#api-versions)
+- [Stripe Checkout: Billing Portal Settings](https://dashboard.stripe.com/test/settings/billing/portal)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Supabase Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Supabase Next.js Auth Helpers](https://supabase.com/docs/guides/auth/auth-helpers/nextjs)
+- [Supabase Magic Link Login](https://supabase.com/docs/guides/auth/auth-magic-link)
+- [Supabase Auth Signout](https://supabase.com/docs/reference/javascript/auth-signout)
+- [Supabase RLS: Row Level Security](https://supabase.com/docs/guides/auth/row-level-security)
+- [Supabase Database Functions](https://supabase.com/docs/guides/database/functions)
+- [Supabase Database Triggers](https://supabase.com/docs/guides/auth/managing-user-data#using-triggers)
